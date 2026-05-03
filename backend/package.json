@@ -1,0 +1,33 @@
+{
+  "name": "electiq-backend",
+  "version": "1.0.0",
+  "description": "ElectIQ Backend - Election Process Assistant",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.0",
+    "express-rate-limit": "^7.2.0",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^7.1.0",
+    "sanitize-html": "^2.13.0",
+    "serverless-http": "^4.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0",
+    "vitest": "^1.5.0"
+  }
+}
